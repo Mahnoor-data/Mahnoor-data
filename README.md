@@ -68,7 +68,7 @@ I specialize in data cleaning, exploratory data analysis (EDA), visualization, d
 - **Findings:** 104K churned customers → 9.38% revenue loss | At-risk = 147K.  
 - Churn drivers: **order cancellations, late deliveries**.  
 - Built **Power BI dashboard** highlighting churn risk segments.  
-📁 Repo: [Customer-Analysis-and-Churn](./link-to-repo)  
+📁 Repo: [Customer-Analysis-and-Churn](https://github.com/Mahnoor-data/Customer-Retention-and-Churn-Analysis)  
 
 ---
 
