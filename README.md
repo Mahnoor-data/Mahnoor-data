@@ -81,7 +81,7 @@ I specialize in data cleaning, exploratory data analysis (EDA), visualization, d
 - *Findings:* Mobile CTR > Desktop, but Desktop CVR & profitability stronger.  
 - Promos & competitor offers = highest ROAS (474%).  
 - Built **Power BI dashboard** for channel/device performance.  
-📁 Repo: [Marketing-Campaign-ROI](./link-to-repo)  
+📁 Repo: [Marketing-Campaign-ROI](https://github.com/Mahnoor-data/Marketing-Campaign-ROI-A-B-Testing)  
 
 ---
 
