@@ -55,7 +55,7 @@ I specialize in data cleaning, exploratory data analysis (EDA), visualization, d
 - SQL queries for revenue aggregation & trend analysis.  
 - **Findings:** Low Fat = 64% sales | Medium outlets = 44% revenue engine.  
 - Built **Power BI dashboard** for product mix, outlet performance & sales trends.  
-📁 Repo: [Blinkit-Sales-Insights](./link-to-repo)  
+📁 Repo: [Blinkit-Sales-Insights](https://github.com/Mahnoor-data/E-Commerce-Sales-and-Insights)  
 
 ---
 
