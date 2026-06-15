@@ -1,110 +1,120 @@
-# 👋 Hi, I’m Mahnoor
+# Mahnoor Zakir
 
-### 🚀 Aspiring Data Analyst | Python • SQL • Power BI • Data Visualization
-
+Data Science student building systems that solve real problems with data, NLP, and deep learning. Focused on production-ready projects with live demos and measurable impact.
 <p align="center">
-  <a href="#skills"><img alt="Skills" src="https://img.shields.io/badge/Skills-Python%20|%20SQL%20|%20Power%20BI%20|%20Pandas%20|%20NumPy-blue"/></a>
-  <a href="#projects"><img alt="Projects" src="https://img.shields.io/badge/Projects-Portfolio-orange"/></a>
-  <a href="#contact"><img alt="Contact" src="https://img.shields.io/badge/Contact-Email%20|%20LinkedIn-lightgrey"/></a>
+  <img alt="Python" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+  <img alt="Pandas" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" />
+  <img alt="NumPy" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" />
+  <img alt="TensorFlow" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" />
+  <img alt="PyTorch" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" />
+  <img alt="SQL" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+  <img alt="Git" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
 </p>
+---
+
+## About
+
+I am a final-year DataScience student at University of Engineering and Technology Peshawar, specializing in data science and natural language processing. My work bridges traditional data analytics with modern AI — from Power BI dashboards for business insights to RAG-based systems for sensitive domains like religious text retrieval.
+
+I build projects end-to-end: data collection, cleaning, modeling, deployment, and documentation. Every repository includes a live demo, professional README, and reproducible code.
 
 ---
 
-## 📖 About Me
+## Technical Skills
 
-I’m **Mahnoor**, a Data Science student and aspiring **Data Analyst** passionate about transforming raw data into clear, actionable insights.  
-I specialize in data cleaning, exploratory data analysis (EDA), visualization, dashboards, and reporting. My goal is to build a professional portfolio, earn internships, and grow into a full-time **Data Analyst**.
+| Category | Tools |
+|----------|-------|
+| **Languages** | Python, SQL |
+| **Data & Analytics** | Pandas, NumPy, Matplotlib, Seaborn, Power BI, Excel |
+| **Machine Learning** | TensorFlow, PyTorch, Scikit-learn |
+| **NLP & LLMs** | HuggingFace Transformers, Sentence Transformers, LangChain, Groq |
+| **Vector & Retrieval** | ChromaDB, FAISS, semantic search, RAG pipelines |
+| **Deployment** | Hugging Face Spaces, Gradio, Streamlit |
+| **Data Engineering** | API integration, PDF extraction, data pipeline design |
+| **Generative AI** |
 
----
-
-## 🔧 Skills & Tools
-
- <p align="left">
-  <img alt="Python" height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-  <img alt="Pandas" height="28" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" />
-  <img alt="NumPy" height="28" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" />
-  <img alt="Matplotlib" height="28" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matplotlib/matplotlib-original.svg" />
-  <img alt="Seaborn" height="28" src="https://seaborn.pydata.org/_images/logo-tall-lightbg.svg" />
-  <img alt="SQL" height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
-  <img alt="Power BI" height="28" src="https://img.icons8.com/color/48/power-bi.png" />
-  <img alt="Excel" height="28" src="https://img.icons8.com/color/48/microsoft-excel-2019--v1.png" />
-  <img alt="Git" height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-  <img alt="VSCode" height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
-</p>
-
-**Key Areas:** Data Cleaning • EDA • Data Visualization • Dashboards (Power BI) • SQL querying • Statistics • Reporting
 
 ---
 
-## 📚 Highlights
+## Featured Projects
 
-* ✅ Building real-world projects in **Python (Pandas, NumPy, Seaborn, Matplotlib)** 
-* ✅ Creating interactive **Power BI dashboards** 
-* ✅ SQL: joins, aggregations, window functions, optimization  
-* ✅ Strong focus on **data storytelling & actionable insights**  
+### QuranFiqah — RAG-Based Islamic Question Answering System
 
----
+A production-deployed Retrieval-Augmented Generation system that answers Islamic jurisprudence questions using authenticated Quran, Hadith, and Tafseer sources. Constrains LLM output to retrieved content only — eliminating hallucination risks critical for religious guidance.
 
-## 📂 Featured Projects  
+- **Architecture:** multilingual-e5-large embeddings + ChromaDB vector search + Llama 3.3 70B constrained generation
+- **Corpus:** 36,606 documents (6,236 Quran verses, ~30,000 Hadith, 6,235 Tafseer entries)
+- **Performance:** 3-4s response time, 100% source citation accuracy, 0% hallucination rate by design
+- **Live Demo:** [huggingface.co/spaces/noormrc123/fiqah-qa](https://huggingface.co/spaces/noormrc123/fiqah-qa)
+- **Repository:** [github.com/Mahnoor-data/QuranFiqah](https://github.com/Mahnoor-data/QuranFiqah)
 
-### 1️⃣ E-commerce Sales & Insights (Blinkit Dataset)  
-**Tools:** Python (Pandas, NumPy), SQL, Power BI  
-**Objective:** Analyze consumer behavior, outlet performance & product trends.  
-**Highlights:**  
-- Cleaned & transformed dataset (handled missing values, standardized categories).  
-- SQL queries for revenue aggregation & trend analysis.  
-- **Findings:** Low Fat = 64% sales | Medium outlets = 44% revenue engine.  
-- Built **Power BI dashboard** for product mix, outlet performance & sales trends.  
-📁 Repo: [Blinkit-Sales-Insights](https://github.com/Mahnoor-data/E-Commerce-Sales-and-Insights)  
+Key technical decisions:
+- Selected ChromaDB over Pinecone/Weaviate for zero-cost persistent storage
+- Implemented batch embedding (64 docs/batch) to optimize Colab GPU utilization
+- Designed strict system prompts with temperature=0.3 to prevent creative generation of religious rulings
+- Handled real-world data engineering challenges: API failures, PDF OCR limitations, duplicate ID resolution
 
 ---
 
-### 2️⃣ Customer Retention & Churn Analysis  
-**Tools:** Power BI (DAX, Measures), SQL  
-**Objective:** Identify churn drivers and retention opportunities.  
-**Highlights:** 
-- Unified 7 relational tables into a customer model.  
-- Engineered KPIs: AOV, Churn Status, Delivery Metrics, Payment History.  
-- **Findings:** 104K churned customers → 9.38% revenue loss | At-risk = 147K.  
-- Churn drivers: **order cancellations, late deliveries**.  
-- Built **Power BI dashboard** highlighting churn risk segments.  
-📁 Repo: [Customer-Analysis-and-Churn](https://github.com/Mahnoor-data/Customer-Retention-and-Churn-Analysis)  
+### Hinglish YouTube Sentiment Analysis
+
+Deep learning comparison of RNN, LSTM, GRU, BiLSTM, and DistilBERT for sentiment classification of code-mixed Hinglish (Hindi-English) YouTube comments. Includes full data pipeline from collection to visualization.
+
+- **Dataset:** 24,000 comments from 12 videos, balanced to 9,552 samples
+- **Models:** RNN (65%), LSTM (72.1%), GRU (72.5%), BiLSTM (74%), DistilBERT (85%)
+- **Key Finding:** BiLSTM delivers best accuracy-time ratio (74% in 9.9s); DistilBERT dominates accuracy but costs 28x training time
+- **Techniques:** Automated RoBERTa labeling, stratified split, custom readability filters, professional matplotlib visualizations
+- **Repository:** [github.com/Mahnoor-data/hinglish-sentiment](https://github.com/Mahnoor-data/hinglish-sentiment)
 
 ---
 
-### 3️⃣ Marketing Campaign ROI & A/B Testing  
-**Tools:** Python (Pandas, Statsmodels), Power BI  
-**Objective:** Evaluate campaign effectiveness & optimize ROI.  
-**Highlights:**  
-- Conducted A/B testing (ANOVA & T-tests).  
-- Engineered metrics: CPA, ROAS, Profit Margin.  
-- *Findings:* Mobile CTR > Desktop, but Desktop CVR & profitability stronger.  
-- Promos & competitor offers = highest ROAS (474%).  
-- Built **Power BI dashboard** for channel/device performance.  
-📁 Repo: [Marketing-Campaign-ROI](https://github.com/Mahnoor-data/Marketing-Campaign-ROI-A-B-Testing)  
+### E-Commerce Sales Insights — Blinkit Dataset
+
+End-to-end retail analytics project analyzing consumer behavior, outlet performance, and product trends.
+
+- **Tools:** Python (Pandas, NumPy), SQL, Power BI
+- **Impact:** Identified Low Fat products = 64% of sales; Medium outlets = 44% revenue engine
+- **Deliverable:** Interactive Power BI dashboard with drill-down capability
+- **Repository:** [github.com/Mahnoor-data/E-Commerce-Sales-and-Insights](https://github.com/Mahnoor-data/E-Commerce-Sales-and-Insights)
 
 ---
 
-## 📄 Resume  
+### Customer Retention & Churn Analysis
 
-[![Resume](https://img.shields.io/badge/View%20Resume-PDF-red?style=for-the-badge&logo=adobeacrobatreader)](https://drive.google.com/file/d/11_scd2I9rUR6rn2wTpJDnTgkHF5_1M18/view?usp=drivesdk)
+Unified 7 relational tables into a customer model to identify churn drivers and retention opportunities.
 
----
-
-## 📫 Contact  
-
-* ✉ Email: *[noormrc123@gmail.com](mailto:noormrc123@gmail.com)* 
-* 🔗 LinkedIn: [Mahnoor Zakir](https://www.linkedin.com/in/mahnoor-zakir-9a6183358)  
-* 🌐 GitHub: [Mahnoor-data](https://github.com/Mahnoor-data)  
+- **Tools:** Power BI (DAX), SQL
+- **Impact:** Discovered 104K churned customers causing 9.38% revenue loss; 147K at-risk customers identified
+- **Key Drivers:** Order cancellations and late deliveries
+- **Deliverable:** Power BI dashboard with churn risk segmentation
+- **Repository:** [github.com/Mahnoor-data/Customer-Retention-and-Churn-Analysis](https://github.com/Mahnoor-data/Customer-Retention-and-Churn-Analysis)
 
 ---
 
-## 📈 GitHub Stats & Activity  
+### Marketing Campaign ROI & A/B Testing
 
-![Mahnoor's GitHub stats](https://github-readme-stats.vercel.app/api?username=Mahnoor-data&show_icons=true&theme=default&count_private=true)  
+Statistical evaluation of campaign effectiveness across channels and devices.
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Mahnoor-data&layout=compact)  
+- **Tools:** Python (Pandas, Statsmodels), Power BI
+- **Methods:** ANOVA, T-tests, CPA/ROAS/Profit Margin engineering
+- **Finding:** Mobile CTR &gt; Desktop, but Desktop CVR and profitability stronger; Promos delivered highest ROAS (474%)
+- **Deliverable:** Power BI dashboard for channel/device performance optimization
+- **Repository:** [github.com/Mahnoor-data/Marketing-Campaign-ROI-A-B-Testing](https://github.com/Mahnoor-data/Marketing-Campaign-ROI-A-B-Testing)
 
 ---
 
-Last updated: Sept 24, 2025
+## Education
+
+**BS Datascience** — University of Engineering and Technology Peshawar, Pakistan
+
+---
+
+## Contact
+
+- **Email:** noormrc123@gmail.com
+- **LinkedIn:** [linkedin.com/in/mahnoor-zakir-9a6183358](https://www.linkedin.com/in/mahnoor-zakir-9a6183358?utm_source=share_via&utm_content=profile&utm_medium=member_android)
+- **GitHub:** [github.com/Mahnoor-data](https://github.com/Mahnoor-data)
+
+---
+
+*Last updated: June 2026*
